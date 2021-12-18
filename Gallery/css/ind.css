@@ -1,0 +1,32 @@
+.grid-contoiner
+{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "d1 d2 d3"
+}
+.container_center
+{
+    text-align:  center;
+}
+.mainPhoto
+{
+
+}
+.img_min
+{
+    
+}
+.d1
+{
+    grid-area: d1;
+}
+.d2
+{
+    grid-area: d2;
+}
+.d3
+{
+    grid-area: d3;
+}
